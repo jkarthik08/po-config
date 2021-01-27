@@ -11,16 +11,6 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./components/MyComponent/src/App.js":
-/*!*******************************************!*\
-  !*** ./components/MyComponent/src/App.js ***!
-  \*******************************************/
-/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
-
-eval("\n\nObject.defineProperty(exports, \"__esModule\", ({\n  value: true\n}));\nexports.App = void 0;\n\nvar _react = _interopRequireDefault(__webpack_require__(/*! react */ \"react\"));\n\nvar _Title = __webpack_require__(/*! ./components/Title */ \"./components/MyComponent/src/components/Title.js\");\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { \"default\": obj }; }\n\nvar App = function App(_ref) {\n  var _ref$name = _ref.name,\n      name = _ref$name === void 0 ? \"local\" : _ref$name;\n  return /*#__PURE__*/_react[\"default\"].createElement(_Title.Title, null, \"Dynamic component loaded from \", name, \"!\");\n};\n\nexports.App = App;\n\n//# sourceURL=webpack://dynamic-components/./components/MyComponent/src/App.js?");
-
-/***/ }),
-
 /***/ "./components/MyComponent/src/components/Title.js":
 /*!********************************************************!*\
   !*** ./components/MyComponent/src/components/Title.js ***!
@@ -37,7 +27,7 @@ eval("\n\nObject.defineProperty(exports, \"__esModule\", ({\n  value: true\n}));
   \*********************************************/
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
-eval("\n\nObject.defineProperty(exports, \"__esModule\", ({\n  value: true\n}));\nexports.default = void 0;\n\nvar _App = __webpack_require__(/*! ./App */ \"./components/MyComponent/src/App.js\");\n\n/**\n * Entrypoint of the Remote Component.\n */\nvar _default = _App.App;\nexports.default = _default;\n\n//# sourceURL=webpack://dynamic-components/./components/MyComponent/src/index.js?");
+eval("\n\nObject.defineProperty(exports, \"__esModule\", ({\n  value: true\n}));\nexports.default = void 0;\n\nvar _react = _interopRequireDefault(__webpack_require__(/*! react */ \"react\"));\n\nvar _Title = __webpack_require__(/*! ./components/Title */ \"./components/MyComponent/src/components/Title.js\");\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { \"default\": obj }; }\n\nvar App = function App(_ref) {\n  var _ref$name = _ref.name,\n      name = _ref$name === void 0 ? \"local\" : _ref$name;\n  return /*#__PURE__*/_react[\"default\"].createElement(_Title.Title, null, \"Dynamic component loaded from \", name, \"!\");\n};\n\nvar _default = App;\nexports.default = _default;\n\n//# sourceURL=webpack://dynamic-components/./components/MyComponent/src/index.js?");
 
 /***/ }),
 
